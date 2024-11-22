@@ -1,0 +1,17 @@
+/* Container div */
+div {
+  width: 100%;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px; /* To ensure spacing on smaller screens */
+  box-sizing: border-box; /* Prevents overflow */
+}
+
+/* Video element */
+video {
+  max-width: 100%; /* Ensures video never overflows its container */
+  max-height: 100vh; /* Ensures the video doesn't exceed the viewport height */
+  object-fit: contain; /* Maintains the aspect ratio and fits the video inside the container */
+}
